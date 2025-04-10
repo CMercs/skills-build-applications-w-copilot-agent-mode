@@ -19,6 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment-checklist/
 
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-pk@$*m7@%5v)gt$)5@6%q9htch^^b1588o!6pnj3^3%*s8xmk%"
 
@@ -79,13 +80,14 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
+        "ENGINE": "djongo", 
         "NAME": "octofit_db",
         "HOST": "localhost",
         "PORT": 27017,
     }
 }
 
+  
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
